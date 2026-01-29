@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crowd Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="preload" as="image" href="media/fondo_1.jpg">
+
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+        <img src="media/logo.png" alt="Crowd Studios" />
+    </div>
+
+    <nav class="nav">
+      <a href="#home">HOME</a>
+      <a href="#servicios">SERVICIOS</a>
+      <a href="#contacto">CONTACTO</a>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <video class="hero__bg" autoplay muted loop playsinline preload="auto" poster="media/hero-poster.jpg">
+      <source src="media/hero_video.mp4" type="video/mp4" />
+    </video>
+
+    <div class="hero__shade"></div>
+
+    <div class="hero__content">
+      <img class="hero__logo" src="media/logo.png" alt="Crowd Studios" />
+          
+    </div>
+  </main>
+
+  <div class="hero-quote">
+    <div class="hero-quote__line"></div>
+
+    <p class="hero-quote__text">
+      “Creamos soluciones digitales de punta a punta: desde una web lista
+      para vender, hasta apps y experiencias interactivas.
+      También ofrecemos soporte remoto y automatizaciones para que
+      tu negocio funcione sin interrupciones y se mantenga actualizado,
+      sin quedarse atrás frente a los constantes cambios”
+    </p>
+
+    <div class="hero-quote__line"></div>
+  </div>
+
+  <div class="bg-zone">
+    <section id="servicios" class="section">
+      <h2>Servicios</h2>
+
+      <div class="services-strip">
+        <a class="strip-item" href="#web">
+          <img src="media/icon-web.png" alt="" />
+        
+        </a>
+
+        <a class="strip-item" href="#apps">
+          <img src="media/icon-apps.png" alt="" />
+        
+        </a>
+
+        <a class="strip-item" href="#soporte">
+          <img src="media/icon-soporte.png" alt="" />
+        
+        </a>
+
+        <a class="strip-item" href="#juegos">
+          <img src="media/icon-juegos.png" alt="" />
+        
+        </a>
+
+        <a class="strip-item" href="#diseno3d">
+          <img src="media/icon-3d.png" alt="" />
+        
+        </a>
+      </div>
+    </section>
+  
+    <!-- BLOQUES GRANDES -->
+    <section id="web" class="service service--right">
+      <div class="service__img">
+        <img src="media/web.jpg" alt="Diseño web" />
+      </div>
+
+      <div class="service__content">
+        <div class="service__title">
+          <h3>DISEÑO <span>WEB</span></h3>
+          <img class="service__icon" src="media/icon-web-color.png" alt="" />
+        </div>
+
+        <p>
+          Diseño web orientado a resultados. Creamos sitios rápidos, claros y listos
+          para convertir visitas en consultas (WhatsApp, formularios y llamadas).
+          Ideal para emprendimientos, PyMEs y empresas que quieren una presencia profesional,
+          aparecer mejor en Google y vender más.
+        </p>
+
+        <a class="pill" href="#contacto">QUIERO UN SITIO WEB</a>
+      </div>
+    </section>
+
+
+    <section id="apps" class="service service--left">
+      <div class="service__content">
+        <div class="service__title">
+          <img class="service__icon" src="media/icon-apps-color.png" alt="" />
+          <h3>DESARROLLO DE <span>APPS</span></h3>
+        </div>
+
+        <p>
+          Creamos desde timers y utilidades hasta apps con IA entrenada.
+          Nos encargamos del proceso completo: desarrollo, integración, publicación
+          y monetización (Ads) para que tu app esté lista para descargar.
+        </p>
+
+        <a class="pill" href="#contacto">TENGO UNA IDEA DE APP</a>
+      </div>
+
+      <div class="service__img service__img--right">
+        <img src="media/apps.jpg" alt="Apps" />
+      </div>
+    </section>
+
+
+    <section id="soporte" class="service service--right">
+      <div class="service__img">
+        <img src="media/soporte.jpg" alt="Soporte tech" />
+      </div>
+
+      <div class="service__content">
+        <div class="service__title">
+          <h3>SOPORTE <span>TECH</span></h3>
+          <img class="service__icon" src="media/icon-soporte-color.png" alt="" />
+        </div>
+
+        <p>
+          Automatización, optimización de procesos y resolución de problemas tecnológicos.
+          Integraciones entre sistemas, backups, recuperación, orden y seguridad de accesos.
+          Mantenimiento y soporte remoto para que nada te frene.
+        </p>
+
+        <a class="pill" href="#contacto">NECESITO SOPORTE</a>
+      </div>
+    </section>
+
+
+    <section id="juegos" class="service service--left">
+      <div class="service__content">
+        <div class="service__title">
+          <img class="service__icon" src="media/icon-juegos-color.png" alt="" />
+          <h3>DESARROLLO DE <span>JUEGOS</span> MOBILE</h3>
+        </div>
+
+        <p>
+          Juegos 2D/3D para Android (y iOS si lo necesitás). Empezamos con un prototipo jugable
+          para validar la idea y avanzamos hasta un juego completo listo para publicar.
+        </p>
+
+        <a class="pill" href="#contacto">QUIERO HACER UN JUEGO</a>
+      </div>
+
+      <div class="service__img service__img--right">
+        <img src="media/juegos.png" alt="Juegos" />
+      </div>
+    </section>
+
+
+    <section id="diseno3d" class="service service--right">
+      <div class="service__img">
+        <img src="media/diseno3d.jpg" alt="Diseño e impresión 3D" />
+      </div>
+
+      <div class="service__content">
+        <div class="service__title">
+          <h3>DISEÑO / IMPRESIÓN <span>3D</span></h3>
+          <img class="service__icon" src="media/icon-3d-color.png" alt="" />
+        </div>
+
+        <p>
+          Convertimos tu idea en una pieza real: modelado 3D a medida, optimización para impresión
+          y entrega lista para producir. También imprimimos prototipos y productos finales.
+        </p>
+
+        <a class="pill" href="#contacto">NECESITO UN MODELO 3D</a>
+      </div>
+    </section>
+
+    <footer id="contacto" class="contact-bar">
+      <div class="contact-bar__repeat" aria-hidden="true">
+        <span>CONTACTANOS:</span><span>CONTACTANOS:</span><span>CONTACTANOS:</span><span>CONTACTANOS:</span><span>CONTACTANOS:</span>
+      </div>
+
+      <div class="contact-bar__main">
+        <a class="contact-wa" target="_blank" rel="noopener"
+           href="https://wa.me/5493875650304?text=Hola%20quiero%20consultar%20por%20sus%20servicios">
+          <span class="wa-bubble">
+            <img src="media/wa.png" alt="" />
+          </span>
+          <span>Whatsapp</span>
+       </a>
+
+        <a class="contact-mail" href="mailto:crowd.3ddesign@gmail.com">
+          <img src="media/mail.png" alt="" />
+          <span>crowd.3ddesign@gmail.com</span>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
