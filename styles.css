@@ -364,15 +364,33 @@ body{
 }
 
 .contact-wa:hover,
-.contact-mail:hover{
+.contact-mail:hover,
+.contact-ig:hover{
   filter: brightness(1.03);
   transform: translateY(-1px);
 }
 
 .contact-wa,
-.contact-mail{
+.contact-mail
+.contact-ig:hover{
   transition: transform .15s ease, filter .15s ease;
 }
+
+.contact-ig{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+}
+
+.contact-ig img{
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px){
