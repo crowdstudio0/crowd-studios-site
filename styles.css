@@ -6,7 +6,7 @@
   --text: #fff;
 
   /* Ayuda a que el navegador NO “toquetee” colores por dark-mode en algunos casos */
-  color-scheme: dark;
+  color-scheme: dark light;
 }
 
 *{ box-sizing: border-box; margin: 0; padding: 0; }
@@ -14,6 +14,12 @@
 html{
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
+  forced-color-adjust: none;
+}
+
+img, video {
+  filter: none !important;
+  -webkit-filter: none !important;
 }
 
 body{
