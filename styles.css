@@ -693,4 +693,10 @@ body{
   border-bottom: 1px solid rgba(255,255,255,.12);
 }
 
+/* Para imágenes tipo collage: que NO recorten */
+.media-contain img{
+  object-fit: contain !important;
+  background: #000;
+}
+
 
